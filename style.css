@@ -1,14 +1,58 @@
+:root {
+    font-family: 'Outfit';
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+body{
+    background-color: var(--Stone100);
+}
+
 @font-face {
-  font-family: 'Outfit';
-  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900; /* Variable font weight range */
-  font-style: normal;
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    /* Variable font weight range */
+    font-style: normal;
 }
 
 /* Young Serif font */
 @font-face {
-  font-family: 'Young Serif';
-  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Young Serif';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 700;
+    color: var(--Brown800);
+}
+
+.recipe-container {
+    background-color: white;
+}
+
+.prep-div {
+    background-color: var(--Rose50);
+}
+
+.prep-div h3 {
+    color: var(--Rose800);
+    font-weight: 600;
+}
+
+td:nth-child(2){
+    color: var(--Brown800);
 }
