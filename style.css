@@ -11,6 +11,8 @@
 
 body{
     background-color: var(--Stone100);
+    display: flex;
+    justify-content: center;
 }
 
 @font-face {
@@ -46,13 +48,31 @@ h2 {
 
 .prep-div {
     background-color: var(--Rose50);
+    border-radius: 16px;
+    padding: 16px;
 }
 
 .prep-div h3 {
     color: var(--Rose800);
     font-weight: 600;
+
 }
 
 td:nth-child(2){
     color: var(--Brown800);
+}
+
+.recipe-container {
+    width: 30%;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+p {
+    font-weight: 400;
 }
