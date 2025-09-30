@@ -62,6 +62,21 @@ table {
     width: 100%;
     padding-left: 24px;
     padding-bottom: 24px;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 2px solid var(--Stone150);
+}
+
+td {
+    padding-left: 24px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+tr:last-child {
+    border-bottom: none;
 }
 
 td:nth-child(2){
@@ -85,4 +100,9 @@ p {
 
 ul, ol, td, p {
     line-height: 1.5rem;
+}
+
+.spacer {
+    background-color: var(--Stone150);
+    height: 2px;
 }
