@@ -58,6 +58,12 @@ h2 {
 
 }
 
+table {
+    width: 100%;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+
 td:nth-child(2){
     color: var(--Brown800);
 }
@@ -75,4 +81,8 @@ img {
 
 p {
     font-weight: 400;
+}
+
+ul, ol, td, p {
+    line-height: 1.5rem;
 }
